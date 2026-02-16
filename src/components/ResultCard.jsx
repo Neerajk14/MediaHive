@@ -8,7 +8,7 @@ const ResultCard = ({ item }) => {
     dispatch(addedToast())
    }
   return (
-    <div className="w-[18vw] h-80 bg-white relative rounded-xl overflow-hidden ">
+    <div className="w-full sm:w-[45%] md:w-[30%] lg:w-[18vw] aspect=[4/5] bg-white relative rounded-xl overflow-hidden ">
       <a href={item.url} target="_blank" className="h-full">
         {item.type == "photo" ? (
           <img
@@ -34,7 +34,7 @@ const ResultCard = ({ item }) => {
 
       <div
         id="bottom"
-        className=" flex justify-between items-center gap-  w-full absolute py-6 px-4 text-white bottom-0"
+        className=" flex justify-between items-center   w-full absolute py-6 px-4 text-white bottom-0"
       >
         <h2 className="text-lg font-semibold h-14 capitalize line-clamp-3 overflow-hidden">{item.title}</h2>
         <button onClick={()=>{

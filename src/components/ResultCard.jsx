@@ -8,7 +8,7 @@ const ResultCard = ({ item }) => {
     dispatch(addedToast())
    }
   return (
-    <div className="w-full sm:w-[45%] md:w-[30%] lg:w-[18vw] aspect=[4/5] bg-white relative rounded-xl overflow-hidden ">
+    <div className="w-full h-full sm:w-[45%] md:w-[30%] lg:w-[18vw] aspect=[4/5] bg-white relative rounded-xl overflow-hidden ">
       <a href={item.url} target="_blank" className="h-full">
         {item.type == "photo" ? (
           <img

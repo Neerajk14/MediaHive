@@ -16,6 +16,7 @@ The React Compiler is not enabled on this template because of its impact on dev 
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 =======
-# MediaHive
+# LIVE URL = https://mediaorbit.vercel.app/
+# MediaOrbit
  A website where you can search media and save your favourite media to your collection so that you can see them at one place. 
 >>>>>>> 6a1f9efc86bfc3426faeb604a81546d602e1e667
